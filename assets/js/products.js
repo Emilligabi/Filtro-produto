@@ -12,6 +12,7 @@ async function getProducts() {
     {
       id: 2,
       name: 'Caquito Dançante',
+      original_price: 6500,
       price: 4500,
       is_free_delivery: true,
       image_url: '/assets/images/caquito.jfif',
@@ -20,7 +21,7 @@ async function getProducts() {
     {
       id: 3,
       name: 'Controle',
-      original_price: 6500,
+      price: 6500,
       is_free_delivery: true,
       image_url: '/assets/images/controle.jfif',
       description:  'É um fato conhecido de todos que um leitor se distrairá com...'
@@ -37,6 +38,7 @@ async function getProducts() {
     {
       id: 5,
       name: 'Flor',
+      original_price: 6500,
       price: 4500,
       is_free_delivery: true,
       image_url: '/assets/images/flor.jfif',
@@ -45,9 +47,9 @@ async function getProducts() {
     {
       id: 6,
       name: 'Impressora',
-      original_price: 6500,
+      price: 6500,
       is_free_delivery: true,
-      image_url: '/assets/images/impessora.png',
+      image_url: '/assets/images/impressora.png',
       description:  'É um fato conhecido de todos que um leitor se distrairá com...'
     },
     {
@@ -62,6 +64,7 @@ async function getProducts() {
     {
       id: 8,
       name: 'Notebbok',
+      original_price: 6500,
       price: 4500,
       is_free_delivery: true,
       image_url: '/assets/images/notebook.jpg',
@@ -70,7 +73,7 @@ async function getProducts() {
     {
       id: 9,
       name: 'Teclado',
-      original_price: 6500,
+      price: 6500,
       is_free_delivery: true,
       image_url: '/assets/images/teclado.jfif',
       description:  'É um fato conhecido de todos que um leitor se distrairá com...'
@@ -87,6 +90,7 @@ async function getProducts() {
     {
       id: 11,
       name: 'Tv',
+      original_price: 6500,
       price: 4500,
       is_free_delivery: true,
       image_url: '/assets/images/tv.jpg',
@@ -95,7 +99,7 @@ async function getProducts() {
     {
       id: 12,
       name: 'Xbox 360',
-      original_price: 6500,
+      price: 6500,
       is_free_delivery: true,
       image_url: '/assets/images/xbox-360.jfif',
       description:  'É um fato conhecido de todos que um leitor se distrairá com...'
@@ -112,7 +116,7 @@ async function getProducts() {
     {
       id: 14,
       name: 'Jogo de Panela',
-      original_price: 6500,
+      price: 6500,
       is_free_delivery: true,
       image_url: '/assets/images/jogo_de_panela.jfif',
       description:  'É um fato conhecido de todos que um leitor se distrairá com...'
@@ -120,6 +124,7 @@ async function getProducts() {
     {
       id: 15,
       name: 'Jogo de Talheres',
+      original_price: 6500,
       price: 4500,
       is_free_delivery: true,
       image_url: '/assets/images/jogo_de_talheres.jfif',
@@ -128,7 +133,7 @@ async function getProducts() {
     {
       id: 16,
       name: 'Escorredor de Louça',
-      original_price: 6500,
+      price: 6500,
       is_free_delivery: true,
       image_url: '/assets/images/escorredor_de_louça.jpg',
       description:  'É um fato conhecido de todos que um leitor se distrairá com...'
@@ -145,6 +150,7 @@ async function getProducts() {
     {
       id: 18,
       name: 'Fone de Ouvido',
+      original_price: 6500,
       price: 4500,
       is_free_delivery: true,
       image_url: '/assets/images/fone_de_ouvido.jfif',
@@ -153,7 +159,7 @@ async function getProducts() {
     {
       id: 19,
       name: 'Árvore de Natal',
-      original_price: 6500,
+      price: 6500,
       is_free_delivery: true,
       image_url: '/assets/images/arvore-de-natal.jfif',
       description:  'É um fato conhecido de todos que um leitor se distrairá com...'
@@ -168,4 +174,4 @@ async function getProducts() {
       description:  'É um fato conhecido de todos que um leitor se distrairá com...'
     }
   ]
-},
+}
