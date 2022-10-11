@@ -14,8 +14,8 @@
     <script src="./assets/js/products.js"></script>
     <script src="./assets/js/utils.js"></script>
     <script src="./assets/js/render-products.js"></script>
-    <script src="./assets/js/filter-products.js"></script>
     <script src="./assets/js/cart.js"></script>
+    <script src="./assets/js/filter-products.js" defer></script>
     <script src="./assets/js/main.js" defer></script>
 
   </head>
@@ -120,7 +120,7 @@
           <label class="text-lg font-semibold" for="is-off-sellers"
             >Promoções</label
           >
-          <input type="checkbox" name="is-off-sellers" id="is-off-sellers" />
+          <input type="checkbox" data-key="is-off-sellers" name="is-off-sellers" id="is-off-sellers" />
         </div>
 
         <div
@@ -135,15 +135,15 @@
             hover:shadow-xl
           "
         >
-          <label class="text-lg font-semibold" for="free-delivery"
+          <label class="text-lg font-semibold" for="is-free-delivery"
             >Entega Grátis</label
           >
-          <input type="checkbox" name="free-delivery" id="free-delivery" />
+          <input type="checkbox" data-key="is-free-delivery" name="is-free-delivery" id="is-free-delivery" />
         </div>
 
         <div class="mt-4">
           <span class="text-lg">Marcas</span>
-          <div class="flex flex-col py-2 pl-4">
+          <div class="flex flex-col py-2 pl-4" id="brand">
             <label for="a" class="flex items-center">
               <input type="checkbox" name="a" id="a" />
               <span class="text-sm ml-2">Marca A</span>
@@ -157,7 +157,7 @@
         <!---->
         <div>
           <span class="text-lg mt-4">Condição</span>
-          <div class="flex flex-col py-2 pl-4">
+          <div class="flex flex-col py-2 pl-4" id="condition">
             <label for="new" class="flex items-center">
               <input type="checkbox" name="new" id="new" />
               <span class="text-sm ml-2">Novo</span>
@@ -175,7 +175,7 @@
         <!---->
         <div>
           <span class="text-lg mt-4">Categorias</span>
-          <div class="flex flex-col py-2 pl-4">
+          <div class="flex flex-col py-2 pl-4" id="category">
             <label for="game" class="flex items-center">
               <input type="checkbox" name="game" id="game" />
               <span class="text-sm ml-2">Game</span>
@@ -203,12 +203,16 @@
               class="w-20 rounded-sm shadow pl-2 text-slate-600 outline-none"
               type="number"
               placeholder="0"
+              data-key="price"
+              name="min-price"
             />
             <span class="px-2">á</span>
             <input
               class="w-20 rounded-sm shadow pl-2 text-slate-600 outlinr-none"
               type="number"
               placeholder="2000"
+              data-key="price"
+              name="max-price"
             />
           </div>
         </div>
