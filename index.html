@@ -13,6 +13,7 @@
 
     <script src="./assets/js/products.js"></script>
     <script src="./assets/js/utils.js"></script>
+    <script src="./assets/js/events.js"></script>
     <script src="./assets/js/render-products.js"></script>
     <script src="./assets/js/cart.js"></script>
     <script src="./assets/js/filter-products.js" defer></script>
@@ -31,8 +32,9 @@
         <span>Busque seu pedido</span>
         <div class="flex-1 flex mt-2 relative">
           <input
+          id="product-name"
+          name="product-name"
             type="text"
-            ,
             class="
               flex-1
               h-8
@@ -45,6 +47,7 @@
             "
           />
           <button
+          id="product-name-dispatcher"
             type="button"
             class="
               w-8
@@ -67,6 +70,7 @@
 
       <div class="flex-1 flex items-center justify-end">
         <button
+        id="button-open-cart"
           type="button"
           class="
             w-8
